@@ -212,13 +212,13 @@ docker-compose up -d
 Los controladores y modelos han sido implementados exitosamente:
 
 **Modelos:**
-- `Cliente.cs`: Creado en `ServicioCliente/ClienteAPI/Models/Cliente.cs`.
-- `ClientesDocumento.cs`: Creado en `ServicioCliente/ClienteAPI/Models/ClientesDocumento.cs`.
-- `TiposDocumento.cs`: Creado en `ServicioCliente/ClienteAPI/Models/TiposDocumento.cs`.
+- `Cliente.cs`: Creado en `ClienteAPI/Models/Cliente.cs`.
+- `ClientesDocumento.cs`: Creado en `ClienteAPI/Models/ClientesDocumento.cs`.
+- `TiposDocumento.cs`: Creado en `ClienteAPI/Models/TiposDocumento.cs`.
 
 **Controladores:**
-- `ClientesController`: Creado en `ServicioCliente/ClienteAPI/Controllers/ClientesController.cs`.
-- `ClientesDocumentosController`: Creado en `ServicioCliente/ClienteAPI/Controllers/ClientesDocumentosController.cs`.
-- `TiposDocumentosController`: Creado en `ServicioCliente/ClienteAPI/Controllers/TiposDocumentosController.cs`.
+- `ClientesController`: Creado en `ClienteAPI/Controllers/ClientesController.cs`.
+- `ClientesDocumentosController`: Creado en `ClienteAPI/Controllers/ClientesDocumentosController.cs`.
+- `TiposDocumentosController`: Creado en `ClienteAPI/Controllers/TiposDocumentosController.cs`.
 
 La base de datos y la API han sido configuradas mediante Docker y EF Core siguiendo las instrucciones.
