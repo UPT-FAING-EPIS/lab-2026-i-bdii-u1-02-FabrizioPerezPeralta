@@ -209,7 +209,19 @@ docker-compose up -d
 
 ## Evidencias
 
-Los controladores y modelos han sido implementados exitosamente:
+Los controladores han sido implementados exitosamente utilizando los siguientes comandos dentro de la carpeta `ClienteAPI`:
+
+**Para la clase Cliente:**
+```Bash
+dotnet aspnet-codegenerator controller -name ClientesController -async -api -m Cliente -dc BdClientesContext -outDir Controllers
+```
+
+**Para la clase ClientesDocumento:**
+```Bash
+dotnet aspnet-codegenerator controller -name ClientesDocumentosController -async -api -m ClientesDocumento -dc BdClientesContext -outDir Controllers
+```
+
+**Resumen de Archivos Generados:**
 
 **Modelos:**
 - `Cliente.cs`: Creado en `ClienteAPI/Models/Cliente.cs`.
