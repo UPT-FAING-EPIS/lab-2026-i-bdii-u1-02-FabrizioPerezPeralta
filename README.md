@@ -2,7 +2,7 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23687407)
 # SESION DE LABORATORIO N° 02: Consumiendo datos de una base de datos Microsoft SQL Server
 
-Nombre:
+Nombre: Fabrizio Salvador Elias Perez Peralta
 
 ## OBJETIVOS
   * Comprender el funcionamiento de una aplicación que consume una base de datos relacional contenerizada.
@@ -207,3 +207,18 @@ docker-compose up -d
 ## Actividades Encargadas
 1. Escribir el código necesrio para completar los controladores para las clases Cliente y ClientesDocumento.
 
+## Evidencias
+
+Los controladores y modelos han sido implementados exitosamente:
+
+**Modelos:**
+- `Cliente.cs`: Creado en `ServicioCliente/ClienteAPI/Models/Cliente.cs`.
+- `ClientesDocumento.cs`: Creado en `ServicioCliente/ClienteAPI/Models/ClientesDocumento.cs`.
+- `TiposDocumento.cs`: Creado en `ServicioCliente/ClienteAPI/Models/TiposDocumento.cs`.
+
+**Controladores:**
+- `ClientesController`: Creado en `ServicioCliente/ClienteAPI/Controllers/ClientesController.cs`.
+- `ClientesDocumentosController`: Creado en `ServicioCliente/ClienteAPI/Controllers/ClientesDocumentosController.cs`.
+- `TiposDocumentosController`: Creado en `ServicioCliente/ClienteAPI/Controllers/TiposDocumentosController.cs`.
+
+La base de datos y la API han sido configuradas mediante Docker y EF Core siguiendo las instrucciones.
